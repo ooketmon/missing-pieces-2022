@@ -11733,6 +11733,7 @@ header.masthead .masthead-heading {
 
 .img-brand {
   height: 2.75rem;
+  width : auto !important;
 }
 
 section#survey {
