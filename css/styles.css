@@ -641,6 +641,7 @@ progress {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -7942,6 +7943,10 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
+.rectangle {
+  border-radius: 2% !important;
+}
+
 .rounded-pill {
   border-radius: 50rem !important;
 }
@@ -11316,6 +11321,7 @@ p {
   margin-bottom: 4rem;
 }
 
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
@@ -11549,7 +11555,7 @@ header.masthead .masthead-heading {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #e9ecef;
+  /* background-color: #e9ecef; */
 }
 .timeline > li {
   position: relative;
@@ -11591,7 +11597,7 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  /* border: 7px solid #e9ecef; */
   border-radius: 100%;
   background-color: #ffc800;
 }
@@ -11623,10 +11629,18 @@ header.masthead .masthead-heading {
 .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
   margin-top: 0;
   color: inherit;
+  text-align: center;
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
   text-transform: none;
 }
+
+.timeline .timeline-heading h5, .timeline .timeline-heading .h5  {
+  margin-top: 0;
+  color: inherit;
+  text-align: center;
+}
+
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
