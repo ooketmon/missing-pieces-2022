@@ -7495,6 +7495,15 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+  background-color: #f1f1f1;
+}
+
+.py-6 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  background-color: #212529;
+  color: #fed136;
+
 }
 
 .pt-0 {
@@ -11644,6 +11653,7 @@ header.masthead .masthead-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
