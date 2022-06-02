@@ -11330,7 +11330,7 @@ p {
   margin-bottom: 4rem;
 }
 
-.survey {
+h3.survey {
   font-size : 1rem; 
   line-height : 150%;
   font-weight : 400; 
@@ -11338,7 +11338,7 @@ p {
   margin-bottom: 4rem;
   color : #ffffff !important;
 }
-.survey_1 {
+h3.survey_1 {
   font-size : 1.2rem; 
   line-height : 150%;
   font-weight : 400; 
